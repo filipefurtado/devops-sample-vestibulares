@@ -5,12 +5,10 @@ Django settings for django_get_started project.
 from os import path
 PROJECT_ROOT = path.dirname(path.abspath(path.dirname(__file__)))
 
-DEBUG = False
+DEBUG = True
 TEMPLATE_DEBUG = DEBUG
 
-ALLOWED_HOSTS = (
-    'https://devopssamplevestibulares1800555.azurewebsites.net',
-)
+ALLOWED_HOSTS = {'*'}
 
 ADMINS = (
     # ('Your Name', 'your_email@example.com'),
