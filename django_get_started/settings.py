@@ -8,7 +8,9 @@ PROJECT_ROOT = path.dirname(path.abspath(path.dirname(__file__)))
 DEBUG = False
 TEMPLATE_DEBUG = DEBUG
 
-ALLOWED_HOSTS = {'*'}
+ALLOWED_HOSTS = (
+    'https://devopssamplevestibulares1800555.azurewebsites.net',
+)
 
 ADMINS = (
     # ('Your Name', 'your_email@example.com'),
